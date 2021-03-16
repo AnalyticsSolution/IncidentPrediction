@@ -13,7 +13,7 @@ model_path = A:\MLOps\Incident prediction\IncidentPredictionMLOps_v1\Models\
 metric_path = A:\MLOps\Incident prediction\IncidentPredictionMLOps_v1\Metrics\
 le_path = A:\MLOps\Incident prediction\IncidentPredictionMLOps_v1\columns_le\
 input_path = A:\MLOps\Incident prediction\IncidentPredictionMLOps_v1\Input\
-output = A:\MLOps\Incident prediction\IncidentPredictionMLOps_v1\Output\
+output_path = A:\MLOps\Incident prediction\IncidentPredictionMLOps_v1\Output\
 
 [Date]
 
