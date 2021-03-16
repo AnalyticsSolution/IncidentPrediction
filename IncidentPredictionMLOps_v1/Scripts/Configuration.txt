@@ -1,0 +1,23 @@
+[SQL_server]
+
+server = 142.113.117.114
+DB = Proactive_Incident_POC
+ID = Analanceetl
+PWD = sryasbi1
+
+sql_query = select * from [dbo].[Incident_data_prepared]
+
+[Paths]
+
+model_path = A:\MLOps\Incident prediction\IncidentPredictionMLOps_v1\Models\
+metric_path = A:\MLOps\Incident prediction\IncidentPredictionMLOps_v1\Metrics\
+le_path = A:\MLOps\Incident prediction\IncidentPredictionMLOps_v1\columns_le\
+input_path = A:\MLOps\Incident prediction\IncidentPredictionMLOps_v1\Input\
+output = A:\MLOps\Incident prediction\IncidentPredictionMLOps_v1\Output\
+
+[Date]
+
+validation_date = 22-04-2020
+prediction_date = 22-04-2020
+validation_range = 10
+prediction_range = 5
