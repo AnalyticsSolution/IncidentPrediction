@@ -41,7 +41,7 @@ try:
     metric_path = config.get('Paths', 'metric_path')
     le_path = config.get('Paths', 'le_path')
     input_path = config.get('Paths', 'input_path')
-    output = config.get('Paths', 'output_path')
+    output_path = config.get('Paths', 'output_path')
 
 
 except Exception as e:
