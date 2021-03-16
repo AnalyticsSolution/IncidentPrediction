@@ -61,7 +61,7 @@ con = pyodbc.connect(r'Driver={SQL Server};'
 INC_df = pd.read_sql_query(query, con)
 '''
 
-INC_df = pd.read_csv(r'../Input/INC_df_2.csv')
+INC_df = pd.read_csv(r'../Input/data_pre.csv')
 
 # Training function
 
