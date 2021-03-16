@@ -61,7 +61,7 @@ con = pyodbc.connect(r'Driver={SQL Server};'
 INC_df = pd.read_sql_query(query, con)
 '''
 
-INC_df = pd.read_csv(r'A:\MLOps\Incident prediction\IncidentPredictionMLOps_v1\input\data_pre.csv')
+INC_df = pd.read_csv(r'../Input/INC_df_2.csv')
 
 # Training function
 
