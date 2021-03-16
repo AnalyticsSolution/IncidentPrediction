@@ -8,13 +8,13 @@ pipeline{
         }
         stage('train'){
             steps{
-                bat label: '', script: '''cd Scripts/
+                bat label: '', script: '''cd IncidentPredictionMLOps_v1/Scripts/
 python training_v1.py '''
             }
         }
         stage('predict'){
             steps{
-                bat label: '', script: '''cd Scripts/
+                bat label: '', script: '''cd IncidentPredictionMLOps_v1/Scripts/
 python Prediction_v1.py '''
             }
 		}
