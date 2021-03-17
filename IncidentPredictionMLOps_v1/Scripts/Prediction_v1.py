@@ -56,7 +56,7 @@ con = pyodbc.connect(r'Driver={SQL Server};'
 '''
 
 # INC_df = pd.read_sql_query(query, con)
-INC_df = pd.read_csv(r'A:\MLOps\Incident prediction\IncidentPredictionMLOps_v1\Input\INC_df_2.csv')
+INC_df = pd.read_csv(r'../Input/INC_df_2.csv')
 
 # Function for prediction
 
@@ -164,7 +164,7 @@ engine = create_engine(conn_str)
 output.to_sql(name='IncidentPredicition_N5', con=engine, if_exists='replace', index=False)
 '''
 
-output.to_csv(r'A:\MLOps\Incident prediction\IncidentPredictionMLOps_v1\Output\prediction_output.csv')
+output.to_csv(r'../Output/prediction_output.csv')
 
 print('Prediction done.')
 
